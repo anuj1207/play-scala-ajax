@@ -1,0 +1,14 @@
+@(string: String, flag: Boolean)
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav">
+            @if(flag){
+            <li><input type="button"  value="Sign up"class="btn btn-default btn-lg" id="btn" ></li>
+            <li><input type="button"  value="Sign ip"class="btn btn-default btn-lg" id="btn1" ></li>
+            }
+        </ul>
+        <div class="navbar-header">
+            <p class="navbar-brand">@string</p>
+        </div>
+    </div>
+</nav>
